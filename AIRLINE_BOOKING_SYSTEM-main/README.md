@@ -6,7 +6,7 @@ Got it! Here's the **GitHub README** for your **Airline Booking System** in **AT
 
 This project is a **backend system** for managing airline ticket bookings, designed using a **microservices architecture**. It is built with **Node.js and Express.js**, utilizing **MySQL with Sequelize ORM** for database management and **RabbitMQ** for asynchronous messaging.  
 
-## ** Microservices Overview**  
+## Microservices Overview 
 
 The system consists of independent **microservices**, each responsible for a specific functionality. This architecture enhances **scalability, maintainability, and performance**.  
 
