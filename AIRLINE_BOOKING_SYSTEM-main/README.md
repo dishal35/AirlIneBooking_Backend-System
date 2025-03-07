@@ -6,7 +6,7 @@ Got it! Here's the **GitHub README** for your **Airline Booking System** in **AT
 
 This project is a **backend system** for managing airline ticket bookings, designed using a **microservices architecture**. It is built with **Node.js and Express.js**, utilizing **MySQL with Sequelize ORM** for database management and **RabbitMQ** for asynchronous messaging.  
 
-## **📌 Microservices Overview**  
+## ** Microservices Overview**  
 
 The system consists of independent **microservices**, each responsible for a specific functionality. This architecture enhances **scalability, maintainability, and performance**.  
 
@@ -22,7 +22,7 @@ The system consists of independent **microservices**, each responsible for a spe
 
 ---
 
-## **📌 System Architecture**  
+## **System Architecture**  
 
 - **Microservices-Based** – Each service runs independently, reducing failure impact.  
 - **API Gateway** – Centralized entry point for all requests.  
@@ -35,7 +35,7 @@ The system consists of independent **microservices**, each responsible for a spe
 
 ---
 
-## **📌 Features**  
+## **Features**  
 
 ✅ **Search Flights** – Users can filter flights by various parameters.  
 ✅ **Book Flights** – Allows booking, modification, and cancellation.  
@@ -45,7 +45,7 @@ The system consists of independent **microservices**, each responsible for a spe
 
 ---
 
-## **📌 Project Repositories**  
+## **Project Repositories**  
 
 Each microservice has a dedicated repository:  
 
@@ -57,17 +57,17 @@ Each microservice has a dedicated repository:
 
 ---
 
-## **📌 Running the Services Locally**  
+## **Running the Services Locally**  
 
 To set up the project, follow the **setup instructions** in each repository.  
 
-### **🔹 Prerequisites**  
+### ** Prerequisites**  
 ✔️ Install **Node.js** and **MySQL**  
 ✔️ Install **RabbitMQ** for message queueing  
 
-### **🔹 Steps to Run the Services**  
+### **Steps to Run the Services**  
 
-1️⃣ **Clone each microservice repository**  
+**Clone each microservice repository**  
 ```bash
 git clone https://github.com/dishal35/AuthorizationService.git
 git clone https://github.com/dishal35/BookingService.git
@@ -75,17 +75,17 @@ git clone https://github.com/dishal35/FlightsAndSearchService.git
 git clone https://github.com/dishal35/ReminderService-main.git
 git clone https://github.com/dishal35/API_Gateway.git
 ```
-2️⃣ **Navigate to each repository and install dependencies**  
+**Navigate to each repository and install dependencies**  
 ```bash
 cd <microservice-folder>
 npm install
 ```
-3️⃣ **Set up environment variables (`.env`)**  
+**Set up environment variables (`.env`)**  
 Refer to the **`.env.example`** in each repository.  
 
-4️⃣ **Start MySQL and RabbitMQ**  
+**Start MySQL and RabbitMQ**  
 
-5️⃣ **Run each service**  
+**Run each service**  
 ```bash
 npm start
 ```
@@ -93,9 +93,9 @@ Ensure all services are running **simultaneously** for proper inter-service comm
 
 ---
 
-## **📌 API Documentation**  
+## ** API Documentation**  
 
-### **🔹 Authentication Service**  
+### **Authentication Service**  
 **Endpoint:** `/auth/register`  
 Registers a new user.  
 ```json
@@ -108,15 +108,15 @@ Registers a new user.
 **Endpoint:** `/auth/login`  
 Returns a JWT token for authentication.  
 
-### **🔹 Booking Service**  
+### ** Booking Service**  
 **Endpoint:** `/booking/create`  
 Creates a new flight booking.  
 
-### **🔹 Flight Search Service**  
+### **Flight Search Service**  
 **Endpoint:** `/flights/search?departure=NYC&destination=LAX`  
 Returns available flights for a given route.  
 
-### **🔹 Notification & Reminder Service**  
+### **Notification & Reminder Service**  
 **Endpoint:** `/reminder/send`  
 Triggers email reminders for upcoming flights.  
 
